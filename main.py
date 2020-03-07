@@ -129,11 +129,6 @@ def invalidForm():
                   content=Label(text='Please fill in all inputs with valid information.'),
                   size_hint=(None, None), size=(400, 400))
 
-    def invalidForm():
-        pop = Popup(title='Invalid Form',
-                    content=Label(text='Please fill in all inputs with valid information.'),
-                    size_hint=(None, None), size=(400, 400))
-
     pop.open()
 kv = Builder.load_file("my.kv")
 
